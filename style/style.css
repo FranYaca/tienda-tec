@@ -164,7 +164,7 @@ nav ul li:hover .drop{
     margin-left: 1rem;
     margin-right: 1rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 
 }
@@ -201,7 +201,7 @@ nav ul li:hover .drop{
     width: 30%;
 }
 
-.secundaria .sponsors {
+.sponsors {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -209,16 +209,27 @@ nav ul li:hover .drop{
 
 }
 
-.secundaria .sponsors h3 {
-    margin: 0 0 1rem 0;
+ .sponsors h2 {
+    margin: 1rem 0 1rem 0;
     padding: 0;
 }
 
-.secundaria .sponsors .tiendas {
+ .sponsors .tiendas {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
+    gap: 1rem;
+    animation: scroll 4s linear infinite;
+    
+}
+@keyframes scroll{
+    0% {
+        transform: translateX(0);
+}
+100% {
+    transform: translateX(calc(10px * 7)); 
+}
 }
 
 .secundaria .sponsors .tiendas img {
@@ -226,7 +237,9 @@ nav ul li:hover .drop{
     aspect-ratio: 5/4;
     object-fit: contain;
     mix-blend-mode: color-burn;
+    
 }
+
 
 .sobre-nosotros {
     background-color: green;
