@@ -219,16 +219,24 @@ nav ul li:hover .drop {
 }
 
 .sponsors {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+    margin: 0;
+    padding: 0;
+
 
 }
 
 .sponsors h2 {
     margin: 1rem 0 1rem 0;
     padding: 0;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .sponsors .tiendas {
@@ -237,8 +245,8 @@ nav ul li:hover .drop {
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
-    animation: scroll 40s linear infinite;
 
+    width: auto;
 }
 
 
@@ -253,6 +261,7 @@ nav ul li:hover .drop {
 
 .sobre-nosotros {
     background-color: green;
+    width: auto;
 }
 
 .sobre-nosotros .tit-logo {
@@ -519,10 +528,10 @@ footer {
 
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1024px) {
 
     .nav-bar .menu {
-        width: 100%;
+        width: auto;
         height: 0;
         overflow: hidden;
         flex-direction: column;
@@ -549,6 +558,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
+        width: auto;
 
     }
 
@@ -568,12 +578,158 @@ footer {
     height: 100%;
 }
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
+@media  screen and (max-width: 768px) {
+    .nav-bar .menu {
+        width: auto;
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+
     }
 
-    100% {
-        transform: translateX(calc(100px * 7));
+    .nav-bar label {
+        display: inline-flex;
+        float: right;
+        cursor: pointer;
     }
+
+    .head .nav-bar .logo a img {
+        width: 80%;
+    }
+
+    .principal {
+
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        width: auto;
+
+    }
+    .principal a .notebookportada {
+        border: 10px solid;
+        border-color: blue;
+        border-style: outset;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        width: auto;
+        flex-wrap: wrap;
+    
+    }
+    
+    .principal a .notebookportada img {
+        width: 31%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .principal a .pcportada {
+        border: 10px solid;
+        border-color: blue;
+        border-style: outset;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin: 0;
+    
+    }
+    
+    .principal a .pcportada img {
+        width: 31%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .secundaria {
+
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+
+    }
+
+    
+    .secundaria .monitor-portada {
+        border: 10px solid;
+        border-color: blue;
+        border-style: outset;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        margin-bottom: 1rem;
+    
+    }
+    
+    .secundaria .monitor-portada img {
+        width: 30%;
+    }
+    
+    .secundaria .perifericos-portada {
+        border: 10px solid;
+        border-color: blue;
+        border-style: ridge;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    
+    }
+    
+    .secundaria .perifericos-portada img {
+        width: 30%;
+    }
+
+    .sobre-nosotros .textos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        margin: 0 0 1rem 1rem;
+    }
+    .sponsors {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+        margin: 0;
+        padding: 0;
+
+    
+    }
+    
+    .sponsors h2 {
+        margin: 1rem 0 1rem 0;
+        padding: 0;
+
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .sponsors .tiendas {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+
+        width: auto;
+    }
+    
 }
+
