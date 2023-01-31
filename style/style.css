@@ -46,89 +46,15 @@ a {
     padding: 0;
     display: flex;
     flex-flow: row;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.head .nav-bar .logo a {
-    display: flex;
-    flex-flow: row;
-    justify-content: left;
-    align-items: center;
-    margin: 0 1rem 0 0;
-}
-
-.head .nav-bar .logo a img {
-    margin-top: .5rem;
-    margin-left: 2rem;
-    width: 40%;
-}
-
-.nav-bar {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu {
-    display: flex;
-    flex-flow: row;
     justify-content: right;
     align-items: center;
-    gap: 7rem;
-    margin: 0 2rem 1rem 0;
-    padding: 1rem 2rem 0 0;
-    font-size: var(--size-menu);
-    background-color: var(--clr-main);
 
 }
-
-.menu li {
-    margin: 2rem auto 2rem auto;
-
-}
-
-.menu .drop {
-    display: none;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--clr-main);
-
-
-
-}
-
-nav ul li:hover .drop {
-    display: flex;
-    flex-flow: column;
-
-}
-
-.menu .drop li {
-    margin: 1rem;
-    padding: 0;
-}
-
-.menu .drop li:hover {
-    text-decoration: underline;
-
-}
-
-.nav-bar #toggle,
-.nav-bar label {
-    display: none;
-    margin-top: 1rem;
-    margin-bottom: 0;
-}
-
 
 
 .principal {
 
-    margin-top: 1rem;
+    margin-top: 8rem;
     margin-left: 1rem;
     margin-right: 1rem;
     display: grid;
@@ -245,16 +171,15 @@ nav ul li:hover .drop {
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
-
     width: auto;
 }
 
 
 .sponsors .tiendas img {
-    width: 20%;
-    aspect-ratio: 5/4;
+    width: 15%;
+    aspect-ratio: 2/1;
     object-fit: contain;
-    mix-blend-mode: color-burn;
+
 
 }
 
@@ -530,26 +455,6 @@ footer {
 
 @media screen and (max-width: 1024px) {
 
-    .nav-bar .menu {
-        width: auto;
-        height: 0;
-        overflow: hidden;
-        flex-direction: column;
-        gap: 0;
-        margin: 0;
-
-    }
-
-    .nav-bar label {
-        display: inline-flex;
-        float: right;
-        cursor: pointer;
-    }
-
-    .head .nav-bar .logo a img {
-        width: 80%;
-    }
-
     .principal {
 
         margin-top: 1rem;
@@ -574,34 +479,11 @@ footer {
     }
 }
 
-.nav-bar #toggle:checked~.menu {
-    height: 100%;
-}
-
 @media  screen and (max-width: 768px) {
-    .nav-bar .menu {
-        width: auto;
-        height: 0;
-        overflow: hidden;
-        flex-direction: column;
-        gap: 0;
-        margin: 0;
-
-    }
-
-    .nav-bar label {
-        display: inline-flex;
-        float: right;
-        cursor: pointer;
-    }
-
-    .head .nav-bar .logo a img {
-        width: 80%;
-    }
 
     .principal {
 
-        margin-top: 1rem;
+        margin-top: 8rem;
         margin-left: 1rem;
         margin-right: 1rem;
         display: grid;
