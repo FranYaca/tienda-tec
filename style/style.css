@@ -185,8 +185,9 @@ a {
 
 
 .sobre-nosotros {
-    background-color: green;
+    background-color: #dedede;
     width: auto;
+    border-radius: 8%;
 }
 
 .sobre-nosotros .tit-logo {
@@ -445,13 +446,63 @@ textarea {
 }
 
 footer {
-    background-color: var(--clr-main);
+    background-color: #f7f7f7;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
+    border-radius: 7%;
 
 }
+.menu-footer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.menu-footer .prod-footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-footer .prod-footer ul a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.menu-footer .prod-footer ul a:hover {
+    text-decoration: underline;
+}
+
+.menu-footer .carrito-footer, .about-footer, .contacto-footer {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    
+}
+.menu-footer .carrito-footer a {
+    text-decoration: none;
+    color: black;
+}
+.menu-footer .carrito-footer a:hover {
+    text-decoration: underline;
+}
+.menu-footer .about-footer a {
+    text-decoration: none;
+    color: black;
+}
+.menu-footer .about-footer a:hover {
+    text-decoration: underline;
+}
+.menu-footer .contacto-footer a {
+    text-decoration: none;
+    color: black;
+}
+.menu-footer .contacto-footer a:hover {
+    text-decoration: underline;
+}
+
 
 @media screen and (max-width: 1024px) {
 
@@ -474,6 +525,7 @@ footer {
         margin-right: 1rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        place-items: center;
         gap: 1rem;
 
     }
@@ -656,6 +708,12 @@ footer {
         align-items: center;
         gap: 1rem;
 
+    }
+    .menu-footer {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+        margin-top: 2rem;
     }
 
     
