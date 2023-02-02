@@ -4,7 +4,7 @@
     --font-titulo: 'Rubik', sans-serif;
     --size-titulo: 10rem;
     --size-menu: 1rem;
-
+    --gradient: linear-gradient(to right, #31CCCC, #3B86DE);
 
 }
 
@@ -65,7 +65,7 @@ a {
 
 .principal a .notebookportada {
     border: 10px solid;
-    border-color: blue;
+    border-color: var(--gradient);
     border-style: outset;
     display: flex;
     flex-flow: row;
@@ -83,7 +83,7 @@ a {
 
 .principal a .pcportada {
     border: 10px solid;
-    border-color: blue;
+    border-color: var(--gradient);
     border-style: outset;
     display: flex;
     flex-flow: row;
@@ -113,7 +113,7 @@ a {
 
 .secundaria .monitor-portada {
     border: 10px solid;
-    border-color: blue;
+    border-color: var(--gradient);
     border-style: outset;
     display: flex;
     flex-flow: row;
@@ -130,7 +130,7 @@ a {
 
 .secundaria .perifericos-portada {
     border: 10px solid;
-    border-color: blue;
+    border-color: var(--gradient);
     border-style: ridge;
     display: flex;
     flex-flow: row;
