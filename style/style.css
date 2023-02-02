@@ -41,8 +41,8 @@ a {
 }
 
 .head {
-    background-color: var(--clr-main);
-    margin: 0 0 1rem 0;
+
+    margin: 0 0 8rem 0;
     padding: 0;
     display: flex;
     flex-flow: row;
@@ -510,6 +510,14 @@ footer {
 }
 .menu-footer .contacto-footer a:hover {
     text-decoration: underline;
+}
+
+.main-notebooks{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
 }
 
 
