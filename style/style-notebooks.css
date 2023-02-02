@@ -1,0 +1,168 @@
+:root {
+    --clr-main: lightblue;
+    --clr-menu: rgb(34, 183, 39);
+    --font-titulo: 'Rubik', sans-serif;
+    --size-titulo: 10rem;
+    --size-menu: 1rem;
+    --gradient: linear-gradient(to right, #31CCCC, #3B86DE);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+textarea,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.head {
+
+    margin: 0 0 8rem 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    align-items: center;
+
+}
+.add {
+    display: grid;
+    place-items: center;
+}
+
+.main-notebooks{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    gap: 1rem;
+}
+.main-notebooks .texto-modal {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7%;
+
+}
+.menu-footer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.menu-footer .prod-footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-footer .prod-footer ul a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.menu-footer .prod-footer ul a:hover {
+    text-decoration: underline;
+}
+
+.menu-footer .carrito-footer, 
+.about-footer, .contacto-footer {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    
+}
+.menu-footer .carrito-footer a {
+    text-decoration: none;
+    color: black;
+}
+.menu-footer .carrito-footer a:hover {
+    text-decoration: underline;
+}
+.menu-footer .about-footer a {
+    text-decoration: none;
+    color: black;
+}
+.menu-footer .about-footer a:hover {
+    text-decoration: underline;
+}
+.menu-footer .contacto-footer a {
+    text-decoration: none;
+    color: black;
+}
+.menu-footer .contacto-footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+    
+
+@media  screen and (max-width: 768px) {
+    .main-notebooks{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        place-items: center;
+    }
+    
+    footer {
+        margin:0;
+        padding: 0;
+    }
+    
+    .menu-footer {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+        
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+
+    }
+
+    
+}
+

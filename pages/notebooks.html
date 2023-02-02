@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style-notebooks.css">
     <title>Tienda online</title>
 </head>
 
@@ -49,6 +49,32 @@
         </div>
       </nav>
     </header>
+    
+    <section class="add">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
     <section class="main-notebooks">
       <div class="card" style="width: 18rem;">
         <img src="../assets/img-productos/notebook-1.jpeg" class="card-img-top" alt="...">
@@ -67,39 +93,76 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Notebook Dell Inspiron 3515</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="texto-modal">
-          Lo que tenés que saber de este producto: 
-        Procesador AMD Ryzen 5.
-        Memoria RAM de 8GB.
-        Pantalla LCD de 15.5".
-        Resolución de 1366x768 px.
-        Es antirreflejo.
-        Placa de video AMD Radeon RX Vega 8 (Ryzen 2000/3000).
-        Conexión wifi y bluetooth.
-        Cuenta con 3 puertos USB y puerto HDMI.
-        Incluye lector de tarjeta de memoria.
-        Posee pad numérico.
-        Modo de sonido Stereo, HD Audio.
-        La duración de la batería depende del uso que se le dé al producto.
+        Lo que tenés que saber de este producto: <br>
+        · Procesador AMD Ryzen 5. <br>
+        · Memoria RAM de 8GB. <br>
+        · Pantalla LCD de 15.5". <br>
+        · Resolución de 1366x768 px. <br>
+        · Es antirreflejo. <br>
+        · Placa de video AMD Radeon RX Vega 8 (Ryzen 2000/3000). <br>
+        · Conexión wifi y bluetooth. <br>
+        · Cuenta con 3 puertos USB y puerto HDMI. <br>
+        · Incluye lector de tarjeta de memoria. <br>
+        · Posee pad numérico. <br>
+        · Modo de sonido Stereo, HD Audio. <br>
+        · La duración de la batería depende del uso que se le dé al producto.
         </div>      
        </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Agregar al carrito</button>
       </div>
     </div>
   </div>
 </div>
       <div class="card" style="width: 18rem;">
-        <img src="../assets/img-productos/notebook-1.jpeg" class="card-img-top" alt="...">
+        <img src="../assets/img-productos/notebook-2.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">
-            Notebook Dell Inspiron 3515 plateada 15.5", AMD Ryzen 5 3450U 8GB de RAM 256GB SSD, AMD Radeon RX Vega 8 (Ryzen 2000/3000) 1366x768px Windows 11 Home</p>
+            Notebook HP 15-ef2126wm spruce blue 15.6", AMD Ryzen 5 5500U 8GB de RAM 256GB SSD, AMD Radeon RX Vega 7 1920x1080px Windows 10 Home</p>
         </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Ver detalles
+        </button>
+      </div>
+      <!-- Scrollable modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Notebook Dell Inspiron 3515</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texto-modal">
+          Lo que tenés que saber de este producto
+          Procesador AMD Ryzen 5.
+          Memoria RAM de 8GB.
+          Resolución de 1920x1080 px.
+          Es antirreflejo.
+          Placa de video AMD Radeon RX Vega 7.
+          Conexión wifi y bluetooth.
+          Cuenta con 3 puertos USB y puerto HDMI.
+          Incluye lector de tarjeta de memoria.
+          Posee pad numérico.
+          Modo de sonido Stereo.
+          La duración de la batería depende del uso que se le dé al producto.
+        </div>      
+       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Agregar al carrito</button>
+      </div>
+    </div>
+  </div>
+</div>
       </div>
       <div class="card" style="width: 18rem;">
         <img src="../assets/img-productos/notebook-1.jpeg" class="card-img-top" alt="...">
