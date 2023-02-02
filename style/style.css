@@ -116,6 +116,7 @@ a {
 }
 .secundaria a {
     text-decoration: none;
+    margin: 0;
 }
 
 .secundaria .monitor-portada {
@@ -127,7 +128,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    margin-bottom: 1rem;
+    
 
 }
 
@@ -605,6 +606,7 @@ footer {
 
     .secundaria a {
         text-decoration: none;
+        margin: 0;
 
     }
 
@@ -723,12 +725,17 @@ footer {
         gap: 1rem;
 
     }
+
+    footer {
+        margin:0;
+        padding: 0;
+    }
     
     .menu-footer {
         display: grid;
         grid-template-columns: repeat(1,1fr);
 
-        margin-left: 1rem;
+        
         margin-top: 2rem;
         margin-bottom: 1rem;
 
