@@ -54,13 +54,17 @@ a {
 
 .principal {
 
-    margin-top: 12rem;
+    margin-top: 8rem;
     margin-left: 1rem;
     margin-right: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 
+}
+
+.principal a {
+    text-decoration: none;
 }
 
 .principal a .notebookportada {
@@ -109,6 +113,9 @@ a {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 
+}
+.secundaria a {
+    text-decoration: none;
 }
 
 .secundaria .monitor-portada {
@@ -508,7 +515,7 @@ footer {
 
     .principal {
 
-        margin-top: 12rem;
+        margin-top: 8rem;
         margin-left: 1rem;
         margin-right: 1rem;
         display: grid;
@@ -535,7 +542,7 @@ footer {
 
     .principal {
 
-        margin-top: 12rem;
+        margin-top: 8rem;
         margin-left: 1rem;
         margin-right: 1rem;
         display: grid;
@@ -594,8 +601,13 @@ footer {
 
     }
 
+    .secundaria a {
+        text-decoration: none;
+
+    }
+
     
-    .secundaria .monitor-portada {
+    .secundaria a .monitor-portada {
         border: 10px solid;
         border-color: var(--gradient);
         border-style: outset;
@@ -604,18 +616,18 @@ footer {
         justify-content: center;
         align-items: center;
         gap: 5rem;
-        margin-bottom: 1rem;
+
     
     }
     
-    .secundaria .monitor-portada img {
+    .secundaria a .monitor-portada img {
         width: 30%;
     }
     
     .secundaria .perifericos-portada {
         border: 10px solid;
         border-color: var(--gradient);
-        border-style: ridge;
+        border-style: outset;
         display: flex;
         flex-flow: row;
         justify-content: center;
@@ -624,7 +636,7 @@ footer {
     
     }
     
-    .secundaria .perifericos-portada img {
+    .secundaria a .perifericos-portada img {
         width: 30%;
     }
 
@@ -713,9 +725,13 @@ footer {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 2rem;
+        margin-left: 1rem;
         margin-top: 2rem;
+        margin-bottom: 1rem;
     }
-
+    .menu-footer h3 {
+        margin-left: 4rem;
+    }
     
 }
 
