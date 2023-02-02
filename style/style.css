@@ -546,7 +546,7 @@ footer {
     }
     .principal a .notebookportada {
         border: 10px solid;
-        border-color: blue;
+        border-color: var(--gradient);
         border-style: outset;
         display: flex;
         flex-flow: row;
@@ -566,7 +566,7 @@ footer {
     
     .principal a .pcportada {
         border: 10px solid;
-        border-color: blue;
+        border-color: var(--gradient);
         border-style: outset;
         display: flex;
         flex-flow: row;
@@ -597,7 +597,7 @@ footer {
     
     .secundaria .monitor-portada {
         border: 10px solid;
-        border-color: blue;
+        border-color: var(--gradient);
         border-style: outset;
         display: flex;
         flex-flow: row;
@@ -614,7 +614,7 @@ footer {
     
     .secundaria .perifericos-portada {
         border: 10px solid;
-        border-color: blue;
+        border-color: var(--gradient);
         border-style: ridge;
         display: flex;
         flex-flow: row;
