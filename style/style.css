@@ -482,7 +482,8 @@ footer {
     text-decoration: underline;
 }
 
-.menu-footer .carrito-footer, .about-footer, .contacto-footer {
+.menu-footer .carrito-footer, 
+.about-footer, .contacto-footer {
     display: flex;
     justify-content: center;
     align-items: top;
