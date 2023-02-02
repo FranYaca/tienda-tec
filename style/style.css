@@ -536,6 +536,7 @@ footer {
         gap: 1rem;
 
     }
+    
 }
 
 @media  screen and (max-width: 768px) {
@@ -721,17 +722,17 @@ footer {
         gap: 1rem;
 
     }
+    
     .menu-footer {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 2rem;
+        grid-template-columns: repeat(1,1fr);
+
         margin-left: 1rem;
         margin-top: 2rem;
         margin-bottom: 1rem;
+
     }
-    .menu-footer h3 {
-        margin-left: 4rem;
-    }
+
     
 }
 
