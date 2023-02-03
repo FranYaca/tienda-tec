@@ -60,7 +60,7 @@ a {
     grid-template-columns: repeat(4, 1fr);
     margin-top: 8rem;
     margin-bottom: 2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     gap: 1rem;
 }
 .main-notebooks .texto-modal {
