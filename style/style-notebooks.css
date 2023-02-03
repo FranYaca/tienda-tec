@@ -69,6 +69,13 @@ a {
     justify-content: center;
     align-items: center;
 }
+.card-body  {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 
 
 
@@ -139,10 +146,13 @@ footer {
     
 
 @media  screen and (max-width: 768px) {
+    .head{
+        margin-bottom: 5rem;
+    }
     .main-notebooks{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-top: 8rem;
+        margin-top: 3rem;
         margin-bottom: 2rem;
         margin-left: 1rem;
         place-items: center;
