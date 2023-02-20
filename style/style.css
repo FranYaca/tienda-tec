@@ -42,7 +42,7 @@ a {
 
 .head {
 
-    margin: 0 0 8rem 0;
+    margin: 0 0 4rem 0;
     padding: 0;
     display: flex;
     flex-flow: row;
@@ -51,10 +51,20 @@ a {
 
 }
 
+.carrusel{
+    height: 20%;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .principal {
 
-    margin-top: 8rem;
+    margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     display: grid;
