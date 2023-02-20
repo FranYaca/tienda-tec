@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --clr-main: #2779cc;
+    --clr-main: #888888;
     --clr-main-light: #785ce9;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
@@ -138,7 +138,7 @@ main {
 }
 
 .titulo-principal {
-    color: var(--clr-main);
+    color: var(--clr-red);
     margin-bottom: 2rem;
 }
 
