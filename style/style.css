@@ -80,9 +80,9 @@ a {
 }
 
 .principal a .notebookportada {
-    border: 10px solid;
-    border-color: var(--gradient);
-    border-style: outset;
+
+    box-shadow: 2px 3px 1px grey;
+
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -98,7 +98,7 @@ a {
 }
 
 .principal a .pcportada {
-    border: 10px solid;
+    border: 2px solid;
     border-color: var(--gradient);
     border-style: outset;
     display: flex;
